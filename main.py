@@ -6,5 +6,7 @@ app = Flask(__name__)
 def hello():
     return "Hello world"
 
+a = 5
+
 if __name__ == "__main__":
     app.run("0.0.0.0")
